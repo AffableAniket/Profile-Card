@@ -98,11 +98,12 @@ body{
 
 .info .name
 {
+	width: 60%;
 	position: absolute;
-	padding: 0;
+	padding: 10px;
 	margin: 0 auto;
 	top: 250px;
-	left: 120px;
+	left: 24%;
 	opacity: 0.8;
 }
 
@@ -130,7 +131,7 @@ body{
 }
 
 .name span:nth-child(2){
-  margin-left: 32%;
+  margin-left: 27%;
 }
 
 span{
@@ -168,4 +169,10 @@ span{
 	max-width: fit-content;
 	transform: translate(15%,55%);
 }
+}
+
+@media screen and (max-width: 576px){
+	.card{
+		transform: scale(0.6);
+	}
 }
